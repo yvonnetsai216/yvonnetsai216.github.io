@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(229, 218, 218);
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    font-size: 80px;
+    font-family: fantasy;
+    text-align: center;
+    color: rgb(0, 38, 66);
+    text-transform: uppercase;
+    word-spacing: 3000%;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: beige;
+    font-family: monospace;
+    text-decoration: none;
+    font-size: 180%;
+    text-transform: uppercase;
+    text-align: center;
+    color:rgb(0, 38, 66);
+    display: block;
+    padding: 8px;
+    background-color: rgb(229, 149, 0);
+    position: sticky;
+    top: 0;
+}
+
+
+li{
+    float: left;
+    border-right: 3px solid rgb(229, 218, 218);
+}
+
+li a {
+    display: block;
+    color:rgb(229, 218, 218) ;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(132, 0, 50);
+    
+}
